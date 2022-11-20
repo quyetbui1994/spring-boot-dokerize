@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "ed5817ab-2513-44c1-8fe9-ab5245fc6913",
+		"name": "billing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get bill",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/mobile/quyetbv/billing",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mobile",
+						"quyetbv",
+						"billing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "put bill",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"call_duration\":10000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/mobile/quyetbv/call",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"mobile",
+						"quyetbv",
+						"call"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
